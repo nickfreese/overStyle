@@ -20,6 +20,7 @@ var styleSheet = {
     }
 };
 
+// pass the JS object, and a name for your stylesheet so you can reference it later
 overStyle.create(styleSheet, "test");
 
 ```
