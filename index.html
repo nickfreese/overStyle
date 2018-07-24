@@ -17,6 +17,11 @@ var styleSheet = {
     ".myClass" : {
     	"padding": "12px",
     	"background": "#ffffff"
+    },
+    "@media only screen and (max-width: 600px)": {
+        ".myClass" : {
+            "background": "#000000",
+        }
     }
 };
 

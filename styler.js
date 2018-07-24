@@ -38,7 +38,12 @@ var overStyle =  {
                 
                 cssString += key + " {";
                 for(var rule in obj[key]){
-                    cssString += rule + ": " + obj[key][rule] + ";";
+                    if(typeof obj[key][rule] == "string"){
+                        cssString += rule + ": " + obj[key][rule] + ";";
+                    } else {
+                        cssString += _this.processStyleJSON(obj[key]);
+                    }
+                    
                 } 
                 cssString += "}";
                 
