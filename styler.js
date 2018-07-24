@@ -1,7 +1,7 @@
 /*
 * Over Style JS - Nick Freese, Copyright 2018
 * 
-* Basic stylesheet genration and manipulation.
+* Basic stylesheet generation and manipulation.
 *
 */
 
