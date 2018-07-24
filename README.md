@@ -1,12 +1,12 @@
 # Over Style JS 
 
-### - Nick Freese, Copyright 2018
+### Nick Freese, Copyright 2018
 
 ----------------------------
 
 Over Style is a basic JS tool for dealling with stylesheets in JS.  The goal of Over Style is to make editing large amounts of style from JS into a simple task.
 
-### Create style sheet.
+#### Create style sheet.
 ```
 var styleSheet = {
     "body": {
