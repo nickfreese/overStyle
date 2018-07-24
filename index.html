@@ -1,0 +1,40 @@
+<html>
+<head>
+<!-- OverStyle Example -->
+<script src="styler.js"></script>
+</head>
+<body>
+	<div class='myClass'>Some Content</div>
+<script>
+
+//define a stylesheet using a JS object
+var styleSheet = {
+    "body": {
+    	"padding": "0px",
+    	"margin": "0px",
+    	"background": "#e3e3e3"
+    },
+    ".myClass" : {
+    	"padding": "12px",
+    	"background": "#ffffff"
+    }
+};
+
+overStyle.create(styleSheet, "test");
+
+setTimeout(function(){
+    
+    //make some changes to our JS stylesheet
+    styleSheet[".myClass"]["padding"] = "20px";
+    styleSheet[".myClass"]["font-family"] = "arial";
+    styleSheet[".myClass"]["color"] = "#ef5c5c";
+
+    overStyle.overwrite(styleSheet, "test");//Overwrite the current dom stylesheet using the updated JS object.
+
+}, 2000);
+
+
+</script>
+</body>
+
+</html>
