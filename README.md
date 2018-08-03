@@ -4,7 +4,7 @@
 
 ----------------------------
 
-Over Style is a basic JS tool for dealling with stylesheets in JS.  The goal of Over Style is to make editing large amounts of style from JS into a simple task.
+Over Style is a basic JS tool for dealing with stylesheets in JS.  The goal of Over Style is to make editing large amounts of style from JS into a simple task.
 
 #### Create style sheet.
 ```
@@ -31,7 +31,7 @@ overStyle.create(styleSheet, "test");
 ```
 
 
-### Change and pverwrite that spreadsheet
+### Change and overwrite that spreadsheet
 ```
     styleSheet[".myClass"]["padding"] = "20px";
     styleSheet[".myClass"]["font-family"] = "arial";
