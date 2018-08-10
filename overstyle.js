@@ -5,7 +5,9 @@
 *
 */
 
-var overStyle =  {
+(function(){
+
+    var overStyle = {
 
 	    create: function(object, name){
    
@@ -134,6 +136,8 @@ var overStyle =  {
 	    },
 
 }
+window.overStyle = overStyle;
+})();
 
 
 
